@@ -181,6 +181,6 @@ for rr,region in enumerate(regions):
         plt_eps=0
         fig_path='./Figs/'
         if ly == 'p':
-            plt.savefig(fig_path+region+'.png', bbox_inches='tight', dpi=250)
+            plt.savefig(fig_path+region+'.png', bbox_inches='tight', dpi=150)
             # if plt_eps:
             #     plt.savefig(fig_path+site+'_'+str(i).zfill(2)+nam+'.eps', bbox_inches='tight')
